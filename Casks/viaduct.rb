@@ -1,6 +1,6 @@
 cask "viaduct" do
-  version "1.0.2"
-  sha256 "34df23f5ea18eb971c80645255b5ec7989addce346b6e3670f58d6626b8298df"
+  version "1.0.3"
+  sha256 "80a17461a6ec52b5a42b8c101eb9e251d76faeb37540fb5ce146f4aa553d0d04"
 
   url "https://github.com/magicelk235/viaduct-app/releases/download/v#{version}/Viaduct.dmg",
       verified: "github.com/magicelk235/viaduct-app/"
