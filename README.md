@@ -15,6 +15,9 @@ brew tap magicelk235/magicelklabs
 brew install --cask viaduct
 ```
 
+On recent Homebrew you may be asked to trust this third-party tap on first
+install — approve the prompt, or run `brew tap magicelk235/magicelklabs` first.
+
 ## Apps
 
 | Cask | Description |
