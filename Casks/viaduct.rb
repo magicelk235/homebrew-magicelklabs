@@ -2,7 +2,8 @@ cask "viaduct" do
   version "1.0.0"
   sha256 "ac5a928e62e21819015755714a5f52713722a29a5d104b99676f42123e1314e1"
 
-  url "https://github.com/magicelk235/viaduct-app/releases/download/v#{version}/Viaduct.dmg"
+  url "https://github.com/magicelk235/viaduct-app/releases/download/v#{version}/Viaduct.dmg",
+      verified: "github.com/magicelk235/viaduct-app/"
   name "Viaduct"
   desc "Converts Chrome extensions to native Safari extensions"
   homepage "https://magicelklabs.com/"
