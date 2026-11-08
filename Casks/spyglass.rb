@@ -1,17 +1,19 @@
 cask "spyglass" do
-  version "1.0.0"
-  sha256 "80ca1736b22bd5a2017167ec179633bc6a6caeaa66a6bbb8e2ed5fa82d3c2390"
+  version "2.1.0"
+  sha256 "939f88c3819e54d7ccb5ccae207ccca685bde686fb165660dbc49cf5b377ed9e"
 
   url "https://github.com/magicelk235/spyglass/releases/download/v#{version}/Spyglass.dmg"
   name "Spyglass"
-  desc "Quick Look previews for Google Drive stub files"
+  desc "Quick Look previews for Markdown, code, archives and Google Drive files"
   homepage "https://magicelklabs.com/spyglass/"
 
+  auto_updates true
   depends_on macos: :sonoma
 
   app "Spyglass.app"
 
   zap trash: [
+    "~/Library/Group Containers/V8K8L3ZSD5.com.spyglass.shared",
     "~/Library/Group Containers/group.com.spyglass.shared",
     "~/Library/Caches/com.spyglass.app",
     "~/Library/Containers/com.spyglass.app.preview",
