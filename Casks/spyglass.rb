@@ -13,10 +13,10 @@ cask "spyglass" do
   app "Spyglass.app"
 
   zap trash: [
-    "~/Library/Group Containers/V8K8L3ZSD5.com.spyglass.shared",
-    "~/Library/Group Containers/group.com.spyglass.shared",
     "~/Library/Caches/com.spyglass.app",
     "~/Library/Containers/com.spyglass.app.preview",
+    "~/Library/Group Containers/group.com.spyglass.shared",
+    "~/Library/Group Containers/V8K8L3ZSD5.com.spyglass.shared",
     "~/Library/Preferences/com.spyglass.app.plist",
     "~/Library/Saved Application State/com.spyglass.app.savedState",
   ]
